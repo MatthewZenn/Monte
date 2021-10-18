@@ -4,6 +4,8 @@ var loss = document.getElementById("loss");
 var i = 0;
 var count = document.getElementById("count");
 var count2 = 0;
+var span2 = document.getElementById("span2");
+var percent = document.getElementById("percent");
 const sleep = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
@@ -27,7 +29,9 @@ async function start(){
         else {
             loss.value = parseInt(loss.value)+1; 
         }
-        count.value = count.value-1
         i = i+1;
+        count.value = count.value-1
+        percent.innerHTML = Math.round(loss.value/parseInt(i)*100)+'%';
+        span2.style.width = Math.round(loss.value/parseInt(i)*100)+'%';
     } 
 };

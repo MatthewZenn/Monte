@@ -12,15 +12,16 @@ header {
 }
 
 #button {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
     background-color: rgb(0, 153, 255);
     border: none;
     color: white;
-    width: 150px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     font-size: 14pt;
-    top: 10px;
-    left: 30px;
     border-radius: 25px;
     z-index: 999;
 }
@@ -35,7 +36,7 @@ header {
     left: 20px;
     border: none;
     height: 30px;
-    width: 200px;
+    width: 150px;
     background: none;
     border-bottom: 1px solid white;
     font-size: 14pt;
@@ -78,4 +79,32 @@ input[type=number]::-webkit-outer-spin-button {
 }
 input[type=number] {
     -moz-appearance:textfield;
+}
+
+#span {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    background-color: #101010;
+    bottom: 0%;
+}
+
+#span2 {
+    position: absolute;
+    width: 0;
+    height: 30px;
+    left: 0;
+    background-color: rgb(0, 153, 255);
+    bottom: 0%;
+}
+
+#percent {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 75pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
