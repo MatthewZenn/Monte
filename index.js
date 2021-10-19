@@ -19,7 +19,7 @@ async function start(){
     loss.value = 0;
     i = 0;
     while (i != count2) {
-        await sleep(20);
+        await sleep(10);
         var queen = Math.floor(Math.random() * cards.length)
         var choice = Math.floor(Math.random() * cards.length)
         if (choice == queen){
