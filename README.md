@@ -3,7 +3,7 @@ A proof and visualization of the Monte Hall paradox.
 
 What is a paradox? A paradox is any statement that goes against intuition.
 In 1975, Statistician, Steve Selvin, posed a question known as the Monte Hall Problem. Being named after the host of the show that inspired the problem, *Let's Make A Deal.*
-A game show in which contestants must choose one of three doors to the win either a car or a goat. For a time after the problem was first introduced, contraversey arose over the advantages of sticking with you intital choice, or switching, after an option is removed from play. For a while, most poople concluded that the it didnt matter, as with only two options remaining, your odds were 50/50.
+A game show in which contestants must choose one of three doors to the win either a car or a goat. For a time after the problem was first introduced, contraversey arose over the advantages of sticking with you intital choice, or switching, after an option is removed from play. For a while, most people concluded that the it didnt matter, as with only two options remaining, your odds were 50/50.
 
 but in 1990, the question was again posed to Journalist, Marilyn Vos Savant; writer of *Parade Magazine's* "Ask Marilyn" column.
 
