@@ -14,6 +14,7 @@ var queen = Math.floor(Math.random() * cards.length)
 var choice = Math.floor(Math.random() * cards.length)
 
 async function start(){
+    span2.style.backgroundColor = 'rgb(0, 153, 255)';
     count2 = count.value;
     win.value = 0;
     loss.value = 0;
@@ -31,6 +32,9 @@ async function start(){
         i = i+1;
         count.value = count.value-1
         button.innerHTML = Math.round(loss.value/parseInt(i)*100)+'%';
-        span2.style.width = Math.round(loss.value/parseInt(i)*100)+'%';
-    } 
+        span2.style.width = parseInt(i)/count2*100+'%';
+    }
+    if (span2.style.width == '100%') {
+        span2.style.backgroundColor = 'limegreen';
+    }
 };
