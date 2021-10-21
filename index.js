@@ -1,5 +1,6 @@
 const button = document.getElementById("button");
 var win = document.getElementById("win");
+var win2 = document.getElementById("win2");
 var loss = document.getElementById("loss");
 var i = 0;
 var count = document.getElementById("count");
@@ -10,8 +11,6 @@ const sleep = (ms) => {
 }
 
 const cards = [1,2,3];
-var queen = Math.floor(Math.random() * cards.length)
-var choice = Math.floor(Math.random() * cards.length)
 
 async function start(){
     span2.style.backgroundColor = 'rgb(0, 153, 255)';
@@ -20,7 +19,7 @@ async function start(){
     loss.value = 0;
     i = 0;
     while (i != count2) {
-        await sleep(10);
+        await sleep(1);
         var queen = Math.floor(Math.random() * cards.length)
         var choice = Math.floor(Math.random() * cards.length)
         if (choice == queen){
